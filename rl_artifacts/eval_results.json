@@ -1,0 +1,29 @@
+{
+  "config": {
+    "model_path": "rl_artifacts/policy.pt",
+    "num_episodes": 100,
+    "num_employees": 4,
+    "num_tasks": 6,
+    "mode": "easy",
+    "greedy": true,
+    "seed": 42,
+    "show_example": false
+  },
+  "rl": {
+    "avg_reward": 92.65,
+    "avg_assigned": 5.81,
+    "avg_unassigned": 0.19,
+    "feasible_rate": 0.87,
+    "avg_runtime_ms": 8.512570858001709
+  },
+  "greedy": {
+    "avg_assigned": 5.81,
+    "avg_unassigned": 0.19,
+    "feasible_rate": 0.87
+  },
+  "random": {
+    "avg_assigned": 5.81,
+    "avg_unassigned": 0.19,
+    "feasible_rate": 0.87
+  }
+}

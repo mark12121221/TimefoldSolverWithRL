@@ -1,0 +1,9 @@
+episodes: 300
+learning_rate: 0.001
+gamma: 0.99
+num_employees: 4
+num_tasks: 6
+mode: easy
+model_output: rl_artifacts
+run_tag: test
+seed: 42

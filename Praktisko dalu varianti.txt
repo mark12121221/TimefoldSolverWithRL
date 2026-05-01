@@ -1,0 +1,12 @@
+1. Dziļā mācīšanās prognozē, Timefold optimizē
+Neironu tīkls prognozē svarīgus parametrus no vēsturiskajiem datiem, piemēram pieprasījumu, uzdevuma izpildes ilgumu, kavējuma risku, prioritāti, neierašanās varbūtību. Pēc tam Timefold izmanto šīs prognozes kā ievadi un veic kombinatoriālo optimizāciju, ievērojot ierobežojumus un score funkciju.
+Ideja: ML dod “gudrāku ievadi”, Timefold atrod labāko plānu.
+
+2. Dziļā mācīšanās ģenerē sākotnējo risinājumu, Timefold to uzlabo 
+Neironu tīkls izveido sākotnējo uzdevumu secību, sākotnējo klientu sadalījumu, sākotnējo maršrutu, prioritāšu kārtību. Tad Timefold šo sākotnējo risinājumu uzlabo ar construction heuristics, local search, metaheuristics.
+Ideja: ML iedod labu starta punktu, Timefold izdara precīzu optimizāciju.
+
+3. Dziļā mācīšanās palīdz noteikt score vai svarus ierobežojumiem
+Neironu tīkls no datiem palīdz saprast,kuri ierobežojumi ir svarīgāki, kādi sodi jāpiešķir par noteiktiem pārkāpumiem, kādas prioritātes ir kritiskākas praksē. Pēc tam šī informācija tiek izmantota Timefold score funkcijā.
+Piemēram, kavējumiem lielāks sods nekā nelielam izmaksu pieaugumam, konkrētiem resursu konfliktiem augstāka prioritāte. 
+Ideja: ML palīdz iemācīties, ko tieši optimizēt svarīgāk, bet Timefold veic pašu optimizāciju.

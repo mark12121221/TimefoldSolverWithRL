@@ -1,0 +1,34 @@
+{
+  "config": {
+    "model_path": "rl_artifacts/test/policy.pt",
+    "num_episodes": 100,
+    "num_employees": 4,
+    "num_tasks": 6,
+    "mode": "easy",
+    "greedy": true,
+    "seed": 42,
+    "show_example": false,
+    "run_tag": "test"
+  },
+  "rl": {
+    "avg_reward": 100.5,
+    "std_reward": 18.754466134763742,
+    "avg_assigned": 5.81,
+    "std_assigned": 0.3923009049186606,
+    "avg_unassigned": 0.19,
+    "feasible_rate": 0.87,
+    "avg_runtime_ms": 4.001951217651367
+  },
+  "greedy": {
+    "avg_assigned": 5.81,
+    "std_assigned": 0.3923009049186606,
+    "avg_unassigned": 0.19,
+    "feasible_rate": 0.87
+  },
+  "random": {
+    "avg_assigned": 5.81,
+    "std_assigned": 0.3923009049186606,
+    "avg_unassigned": 0.19,
+    "feasible_rate": 0.87
+  }
+}

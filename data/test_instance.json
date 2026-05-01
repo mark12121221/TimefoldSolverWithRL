@@ -1,0 +1,117 @@
+{
+  "employees": [
+    {
+      "id": "E1",
+      "skills": [
+        "skillD"
+      ],
+      "availableCapacity": 40
+    },
+    {
+      "id": "E2",
+      "skills": [
+        "skillC",
+        "skillD",
+        "skillB"
+      ],
+      "availableCapacity": 40
+    },
+    {
+      "id": "E3",
+      "skills": [
+        "skillE",
+        "skillD"
+      ],
+      "availableCapacity": 46
+    },
+    {
+      "id": "E4",
+      "skills": [
+        "skillD",
+        "skillA",
+        "skillC"
+      ],
+      "availableCapacity": 22
+    },
+    {
+      "id": "E5",
+      "skills": [
+        "skillE",
+        "skillC"
+      ],
+      "availableCapacity": 50
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T1",
+      "requiredSkill": "skillC",
+      "duration": 1,
+      "priority": 1,
+      "mandatory": true
+    },
+    {
+      "id": "T2",
+      "requiredSkill": "skillD",
+      "duration": 4,
+      "priority": 4,
+      "mandatory": true
+    },
+    {
+      "id": "T3",
+      "requiredSkill": "skillA",
+      "duration": 1,
+      "priority": 2,
+      "mandatory": false
+    },
+    {
+      "id": "T4",
+      "requiredSkill": "skillA",
+      "duration": 2,
+      "priority": 2,
+      "mandatory": true
+    },
+    {
+      "id": "T5",
+      "requiredSkill": "skillC",
+      "duration": 1,
+      "priority": 1,
+      "mandatory": true
+    },
+    {
+      "id": "T6",
+      "requiredSkill": "skillB",
+      "duration": 4,
+      "priority": 5,
+      "mandatory": false
+    },
+    {
+      "id": "T7",
+      "requiredSkill": "skillD",
+      "duration": 1,
+      "priority": 5,
+      "mandatory": false
+    },
+    {
+      "id": "T8",
+      "requiredSkill": "skillE",
+      "duration": 3,
+      "priority": 4,
+      "mandatory": true
+    },
+    {
+      "id": "T9",
+      "requiredSkill": "skillE",
+      "duration": 2,
+      "priority": 5,
+      "mandatory": true
+    },
+    {
+      "id": "T10",
+      "requiredSkill": "skillC",
+      "duration": 1,
+      "priority": 1,
+      "mandatory": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+com\example\solver\ScheduleConstraintProvider.class
+com\example\solver\ScheduleSolution.class
+com\example\solver\TaskAssignment.class
+com\example\solver\SolverRunner$InstanceData.class
+com\example\solver\SolverRunner.class
+com\example\solver\Task.class
+com\example\solver\Employee.class
+com\example\solver\SolverRunner$ResultData.class

@@ -1,0 +1,7 @@
+method,acceptance_rate,accepted_instances,avg_assigned,avg_reward,avg_rl_assigned_before_filter,avg_rl_reward_before_filter,avg_runtime_ms,avg_unassigned,feasible_rate,n,rejected_instances,rl_filter_rule,solver_calls_saved,solver_failures,std_assigned,std_reward,std_unassigned,total_instances
+greedy,,,7.62,,,,0.029988289,0.38,0.72,100,,,,,0.561782876,,0.561782876,
+random,,,7.5,,,,0.030281544,0.5,0.64,100,,,,,0.640312424,,0.640312424,
+rl_policy,,,7.5,119.27,,,2.244927883,0.5,0.65,100,,,,,0.6244998,32.1738574,0.6244998,
+solver,,,7.96,,,,30213.49,0.04,0.68,100,,,,0,0.195959179,,0.195959179,
+ml_filter_solver,0.61,61,7.983606557,,,,30219.96721,0.016393443,0.93442623,61,39,,39,0,0.126983061,,0.126983061,100
+rl_filter_solver,0.65,65,7.969230769,,7.5,119.27,30243.92308,0.030769231,0.923076923,65,35,feasible,35,0,0.172691879,,0.172691879,100

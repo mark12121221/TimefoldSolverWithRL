@@ -1,0 +1,91 @@
+{
+  "config": {
+    "num_instances": 100,
+    "num_employees": 5,
+    "num_tasks": 8,
+    "mode": "easy",
+    "seed": 42,
+    "run_tag": "easy_small_full",
+    "rl_model": "rl_artifacts\\policy.pt",
+    "ml_model": "ml_artifacts\\random_forest_feasibility_model.joblib",
+    "ml_threshold": 0.7,
+    "jar_path": "timefold_solver\\target\\timefold-solver-1.0-SNAPSHOT.jar",
+    "rl_filter_rule": "feasible",
+    "rl_assign_threshold": 0.75,
+    "rl_reward_threshold": 0.0
+  },
+  "results": {
+    "greedy": {
+      "avg_assigned": 7.86,
+      "std_assigned": 0.3469870314579495,
+      "avg_unassigned": 0.14,
+      "std_unassigned": 0.34698703145794946,
+      "feasible_rate": 0.88,
+      "avg_runtime_ms": 0.025050640106201172,
+      "n": 100
+    },
+    "random": {
+      "avg_assigned": 7.86,
+      "std_assigned": 0.3469870314579495,
+      "avg_unassigned": 0.14,
+      "std_unassigned": 0.34698703145794946,
+      "feasible_rate": 0.88,
+      "avg_runtime_ms": 0.02470254898071289,
+      "n": 100
+    },
+    "rl_policy": {
+      "avg_assigned": 7.86,
+      "std_assigned": 0.3469870314579495,
+      "avg_unassigned": 0.14,
+      "std_unassigned": 0.34698703145794946,
+      "feasible_rate": 0.88,
+      "avg_runtime_ms": 2.2310948371887207,
+      "n": 100,
+      "avg_reward": 136.73,
+      "std_reward": 21.307207700681946
+    },
+    "solver": {
+      "avg_assigned": 7.98,
+      "std_assigned": 0.13999999999999999,
+      "avg_unassigned": 0.02,
+      "std_unassigned": 0.13999999999999996,
+      "feasible_rate": 0.86,
+      "avg_runtime_ms": 30265.31,
+      "n": 100,
+      "solver_failures": 0
+    },
+    "ml_filter_solver": {
+      "avg_assigned": 8.0,
+      "std_assigned": 0.0,
+      "avg_unassigned": 0.0,
+      "std_unassigned": 0.0,
+      "feasible_rate": 1.0,
+      "avg_runtime_ms": 30245.717647058824,
+      "n": 85,
+      "solver_failures": 0,
+      "acceptance_rate": 0.85,
+      "solver_calls_saved": 15,
+      "total_instances": 100,
+      "accepted_instances": 85,
+      "rejected_instances": 15
+    },
+    "rl_filter_solver": {
+      "avg_assigned": 7.9772727272727275,
+      "std_assigned": 0.14903269373413638,
+      "avg_unassigned": 0.022727272727272728,
+      "std_unassigned": 0.14903269373413638,
+      "feasible_rate": 0.9772727272727273,
+      "avg_runtime_ms": 30245.170454545456,
+      "n": 88,
+      "solver_failures": 0,
+      "acceptance_rate": 0.88,
+      "solver_calls_saved": 12,
+      "total_instances": 100,
+      "accepted_instances": 88,
+      "rejected_instances": 12,
+      "rl_filter_rule": "feasible",
+      "avg_rl_assigned_before_filter": 7.86,
+      "avg_rl_reward_before_filter": 136.73
+    }
+  }
+}
